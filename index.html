@@ -1,0 +1,20 @@
+<html>
+<script>
+    let Mes = 10
+    Mes = prompt('ingrese un mes',Mes)
+    let Mensaje
+    if (Mes == 12 || Mes == 1 || Mes ==2){
+        Mensaje = "es invierno"
+    }else if (Mes >= 3 && Mes <= 5){
+        Mensaje ="es primavera"
+    }else if (Mes >= 6 && Mes <= 8){
+        Mensaje = "es verano"
+    }else if (Mes >= 9 && Mes <= 11){
+        Mensaje = "es otoño"
+    }
+    const mes ='El valor de la variable mes es: ' + Mes
+    const Carne = 'Mi carne es: 21003183'
+    const Nombre = 'Mi nombre es: Jacobo lechuga Caal'
+    document.write(`${ mes + '<br/>'} ${ Mensaje +'<br/>' } ${Carne +'<br/>'} ${ Nombre +'<br/>'}`);
+    </script>
+</html>
